@@ -1,0 +1,96 @@
+name: maychandoan
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.1
+  font_awesome_flutter: ^10.7.0
+  firebase_auth: ^4.19.4
+  firebase_database: ^10.4.10
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  flutter_facebook_auth: ^4.4.0 
+  cloud_firestore: ^4.0.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  syncfusion_flutter_gauges: ^25.1.40
+  geekyants_flutter_gauges: ^1.0.3
+  flutter_svg: 2.0.10+1 
+  google_generative_ai: ^0.3.0
+  flutter_arc_text: ^0.6.0
+  intl: ^0.19.0
+  fl_chart: ^0.67.0
+  animations: ^2.0.11
+  syncfusion_flutter_charts: ^25.1.41+2
+  flutter_screenutil: ^5.0.0+2
+  google_sign_in: ^6.1.5
+  fluttertoast: ^8.2.2
+  firebase_storage: ^11.2.4
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app4.png"
+
+flutter:
+  fonts:
+    - family: PlayfairDisplay-Italic
+      fonts:
+        - asset: fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: fonts/PlayfairDisplay-VariableFont_wght.ttf
+    - family: Orbitron
+      fonts:
+        - asset: fonts/Orbitron-VariableFont_wght.ttf    
+    - family: Sedan SC
+      fonts:
+        - asset: fonts/SedanSC-Regular.ttf      
+    - family: digital7
+      fonts:
+        - asset: fonts/digital-7.ttf     
+  assets:
+    - assets/icons/data_display.png
+    - assets/icons/stored_dtc.png
+    - assets/icons/pending_dtc.png
+    - assets/icons/search_dtc.png
+    - assets/icons/control_actuators.png
+    - assets/icons/chat_bot.png
+    - assets/icons/vehicleVIN.png
+    - assets/icons/searchVIN.png
+    - assets/icons/live_data_chart.png
+    - assets/icons/logout.png
+    - assets/icons/logoBK.png
+    - assets/icons/logoVNU.png
+    - assets/icons/vinid.png
+    - assets/images/welcomepage.jpg
+    - assets/images/battery.png
+    - assets/images/flow_icon.png
+    - assets/icons/fan.png
+    - assets/icons/throttle.png
+    - assets/icons/relay.png
+    - assets/icons/gps.png
+    - assets/images/google_logo.png
+    - assets/images/signin.png
+    - assets/images/login.png
+
+  uses-material-design: true
+
+   
+  
+
